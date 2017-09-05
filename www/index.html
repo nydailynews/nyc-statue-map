@@ -99,9 +99,10 @@
 
     <script src="http://interactive.nydailynews.com/js/jquery.min.js"></script>
 
-    <link rel="stylesheet" type="text/css" href="http://assets.nydailynews.com/nydn/c/rh.css">
-    <link rel="stylesheet" type="text/css" href="http://assets.nydailynews.com/nydn/c/ra.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="http://assets.nydailynews.com/nydn/c/rh.css">
+    <link rel="stylesheet" href="http://assets.nydailynews.com/nydn/c/ra.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="http://interactive.nydailynews.com/js/leaflet/1.2.0/leaflet.css">
 
     <style type="text/css">
 
@@ -124,7 +125,7 @@
             
 
 <div class="intro">
-    <h2>MTA Revenue Breakdown</h2>
+    <h2></h2>
     
     <h1>Headline goes here please</h1>
     <div>
@@ -137,7 +138,7 @@
 
     <p class="byline">By <span>Greg Smith</span></p>
 
-    <p id="datestamp" class="stamp">Published September 01</p>
+    <p id="datestamp" class="stamp">Published September 7</p>
 
     <p>Intro</p>
 
@@ -151,6 +152,10 @@
     </div>
   </div>
 
+
+<section id="map">
+    <div id="m"></div>
+</section>
 
 <section id="monies">
     <h2>Total revenue</h2>
@@ -254,24 +259,6 @@
     </div>
   </div>
 
-<div class="subsidies" id="subsidies">
-    <h2>Subsidies in detail</h2>
-    <ul>
-        <li>
-            <img src="img/state-local.png" alt="an illustration of a government building">
-            <h3>State &amp; Local operating assistance</h3>
-            <h4>$545 million</h4>
-            <p>Under law, the state’s mass transportation program gives direct financial aid to the MTA, mainly through the Metropolitan Mass Transportation Operating Assistance fund. Local operating assistance is matching payments from the city and the suburban counties in the MTA region. The city and the suburban counties in the MTA region also pay for maintenance of commuter rail stations.</p>
-        </li>
-        <li>
-            <img src="img/other-funding.png" alt="an illustration of a bundle of cash">
-            <h3>Other funding</h3>
-            <h4>$674 million</h4>
-            <p>The city reimburses the MTA for the cost of running routes within MTA Bus Company, created to take over bus services that were run by private companies. The city also gives the MTA money to cover the transit agency’s operating budget deficit. The Connecticut Department of Transportation also subsidizes Metro-North operations in the state.</p>
-        </li>    
-    </ul>
-</div>
-</section>
 <div>
     <p class="caption">Source: </p>
     <p class="caption">Interactive by Joe Murphy</p>
@@ -290,6 +277,7 @@
   </div>
 
 
+<script src="http://interactive.nydailynews.com/js/leaflet/1.2.0/leaflet.js"></script>
 <!-- CONTENT-END -->
 
 <!-- FOOTER-START -->
