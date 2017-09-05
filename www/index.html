@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
-    <title></title>
+    <title>~title</title>
     <link rel="icon" type="image/png" href="http://interactive.nydailynews.com/favicons.png">
     <!-- DEFAULT -->
     <meta charset="utf-8">
@@ -13,26 +13,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
 
     <!-- TITLES -->
-    <meta property="og:title" content='' />
-    <meta name="twitter:title" content='' />
+    <meta property="og:title" content='~title' />
+    <meta name="twitter:title" content='~title' />
 
     <!-- DESCRIPTION -->
-    <meta name="description" content="" />
-    <meta property="og:description" content="" />
-    <meta name="twitter:description" content="" />
+    <meta name="description" content="~desc" />
+    <meta property="og:description" content="~desc" />
+    <meta name="twitter:description" content="~desc" />
 
     <!-- KEYWORD -->
-    <meta name="keywords" content="" />
-    <meta name="news_keywords" content="" />
+    <meta name="keywords" content="~key" />
+    <meta name="news_keywords" content="~key" />
 
     <!-- LINK -->
-    <link rel="canonical" href="">
-    <meta property="og:url" content="" />
-    <meta name="twitter:url" content="" />
+    <link rel="canonical" href="~canon">
+    <meta property="og:url" content="~canon" />
+    <meta name="twitter:url" content="~canon" />
 
     <!-- THUMBNAIL IMAGE-->
-    <meta property="og:image" content="/static/img/" />
-    <meta name="twitter:image" content="/static/img/" />
+    <meta property="og:image" content="~canon/img/~share" />
+    <meta name="twitter:image" content="~canon/img/~share" />
     <meta name="twitter:image:alt" content="" />
     <meta property="og:image:width" content="1024" />
     <meta property="og:image:height" content="512" />
@@ -42,13 +42,13 @@
         {
             "@context": "http://schema.org",
             "@type": "NewsArticle",
-            "headline": "",
-            "url": "",
-            "thumbnailUrl": "/static/img/",
-            "dateCreated": "2017-07-T06:00:00Z",
+            "headline": "~title",
+            "url": "~canon",
+            "thumbnailUrl": "~canon/img/",
+            "dateCreated": "2017-09-07T06:00:00Z",
             "articleSection": "Interactive",
-            "creator": [],
-            "keywords": ["interactive project","interactive",]
+            "creator": ["Interactive Project","Joe Murphy","Greg Smith"],
+            "keywords": ["interactive map","interactive project","interactive",]
         }
     </script>
 
@@ -56,7 +56,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:domain" content="http://interactive.nydailynews.com"/>
     <meta name="twitter:site" content="@nydailynews">
-    <meta name="twitter:creator" content="@jaysunsilver">
+    <meta name="twitter:creator" content="@nydni">
     <meta name="decorator" content="responsive" />
     <meta name="nydn_section" content="NY Daily News" />
     <meta name="msvalidate.01" content="02916AAC0DA8B068EFE01D721E03ED7E" />
@@ -86,8 +86,8 @@
             "targetPath": document.location.pathname
         };
         var nydnDO = [ { 
-            'title':'xxxxxx', 
-            'link':'', 
+            'title':'xxx~titlexxx', 
+            'link':'~canon', 
             'p_type':'interactive', 
             'section':'interactive' 
         }];
@@ -101,13 +101,11 @@
 
     <link rel="stylesheet" type="text/css" href="http://assets.nydailynews.com/nydn/c/rh.css">
     <link rel="stylesheet" type="text/css" href="http://assets.nydailynews.com/nydn/c/ra.css">
-    <link rel="stylesheet" type="text/css" href="/static/css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 
     <style type="text/css">
 
     </style>
-    
-    
 
     <script>var nav_params = {section: 'projects', url: 'http://interactive.nydailynews.com/project/'};</script>
     <script src="http://interactive.nydailynews.com/library/vendor-nav/vendor-include.js" defer></script>
@@ -120,7 +118,6 @@
 <!-- SITEHEADER-END -->
 
 <!-- CONTENT-START -->
-
 <main>
     <article>
         <div>
@@ -138,28 +135,15 @@
         </ul>
     </div>
 
-    <p class="byline">By DAN RIVOLI</p>
+    <p class="byline">By <span>Greg Smith</span></p>
 
-    <p id="datestamp" class="stamp">Published Friday September 01</p>
+    <p id="datestamp" class="stamp">Published September 01</p>
 
-    <p>It costs the MTA about $16 billion a year to run the region’s massive transit network, 24 hours a day, seven days a week. But riders for months have been enduring unreliable, overcrowded and dangerous transit service.</p>
-    <p>With riders stuck in the middle of a transit funding feud between Gov. Cuomo and Mayor de Blasio, the Daily News breaks down how the MTA makes its money each year and who ultimately pays for the service New Yorkers get.</p>
+    <p>Intro</p>
 
 </div>
 
-<p class="latest-news">
-    The latest in <a href="http://www.nydailynews.com/tags/mta">Daily News MTA news</a>: 
-    <strong id="latest-news-headline"></strong>
-</p>
-
-<noscript>
-    <p>
-        <strong></strong>
-    </p>
-</noscript>
-
   <div class="ad center">
-    <span>ADVERTISEMENT</span>
     <div id='div-gpt-ad-1423507761396-1'>
       <script>
         googletag.cmd.push(function() { googletag.display('div-gpt-ad-1423507761396-1'); });
@@ -172,7 +156,7 @@
     <h2>Total revenue</h2>
     <ul>
         <li>
-            <img class="revenue" src="static/img/revenue.png" alt="an illustration of a pile of money">
+            <img class="revenue" src="img/revenue.png" alt="an illustration of a pile of money">
             <h3>$15.3 billion</h3>
             <h4>Total MTA revenue</h4>
             <p>This number comes from the MTA's 2017 mid-year forecast and includes the revenue sources below.</p>
@@ -182,31 +166,31 @@
     <h2>Where the money comes from</h2>
     <ul>
         <li>
-            <img src="static/img/fares.png" alt="an illustration of a hand swiping a MetroCard">
+            <img src="img/fares.png" alt="an illustration of a hand swiping a MetroCard">
             <h3>Fares</h3>
             <h4>$6.2 billion</h4>
             <p>This is money collected from every MetroCard swipe and ticket punched on the MTA’s two commuter lines, Long Island Rail Road and Metro-North.</p>
         </li>
         <li>
-            <img src="static/img/taxes.png" alt="an illustration of a coinpurse">
+            <img src="img/taxes.png" alt="an illustration of a coinpurse">
             <h3>Dedicated Taxes</h3>
             <h4>$5.3 billion</h4>
             <p><a href="#taxes">Click to jump to the taxes breakdown</a></p>
         </li>
         <li>
-            <img src="static/img/tolls.png" alt="an illustration of toll road icon">
+            <img src="img/tolls.png" alt="an illustration of toll road icon">
             <h3>Tolls</h3>
             <h4>$1.9 billion</h4>
             <p>Collected from the MTA’s seven bridges and two tunnels</p>
         </li>
         <li>
-            <img src="static/img/subsidies.png" alt="an illustration of a money bag">
+            <img src="img/subsidies.png" alt="an illustration of a money bag">
             <h3>State &amp; Local Subsidies</h3>
             <h4>$1.2 billion</h4>
             <p><a href="#subsidies">Click to jump to the subsidies breakdown</a></p>
         </li>
         <li>
-            <img src="static/img/other-revenue.png" alt="an illustration of a bundle of cash">
+            <img src="img/other-revenue.png" alt="an illustration of a bundle of cash">
             <h3>Other</h3>
             <h4>$685 million</h4>
             <p>This is all operating revenues generated from sources other than fares and tolls, such as advertising, reimbursements for paratransit service, senior and student fares, rents, parking and investment income.</p>
@@ -217,43 +201,43 @@
     <h2>Taxes in detail</h2>
     <ul>
         <li>
-            <img src="static/img/mmtoa.png" alt="an illustration of a safe">
+            <img src="img/mmtoa.png" alt="an illustration of a safe">
             <h3>MMTOA</h3>
             <h4>$1.7 billion</h4>
             <p>Metropolitan Mass Transportation Operating Assistance Fund: This is a pot of tax money collected for the MTA and other downstate transportation systems. It’s made up of revenue, such as statewide tax on petroleum companies, a sales tax in the 12-county MTA region and corporate franchise taxes and fees both statewide and in the MTA region. MMTOA this year will collect a total of $2,318m - 72% of which goes to the MTA.</p>
         </li>
         <li>
-            <img src="static/img/petrol.png" alt="an illustration of a gas pump">
+            <img src="img/petrol.png" alt="an illustration of a gas pump">
             <h3>Petroleum Business Tax</h3>
             <h4>$613 million</h4>
             <p>This is a statewide tax on petroleum businesses, plus taxes on gas and diesel fuel and fees for vehicle registrations and driver licenses.</p>
         </li>
         <li>
-            <img src="static/img/mortgage-record.png" alt="a document icon">
+            <img src="img/mortgage-record.png" alt="a document icon">
             <h3>Mortgage Recording</h3>
             <h4>$444 million</h4>
             <p>A tax on mortgage borrowers and lenders in the 12-county MTA region</p>
         </li>
         <li>
-            <img src="static/img/urban.png" alt="a building icon">
+            <img src="img/urban.png" alt="a building icon">
             <h3>Urban Tax</h3>
             <h4>$574 million</h4>
             <p>This is a tax collected on property transactions and mortgage recordings in New York City.</p>
         </li>
         <li>
-            <img src="static/img/payroll-mobility-2.png" alt="a money icon">
+            <img src="img/payroll-mobility-2.png" alt="a money icon">
             <h3>Payroll Mobility Tax</h3>
             <h4>$1.5 billion</h4>
             <p>This is a tax created during the 2009 MTA bailout on employers and self-employed individuals in the MTA region.</p>
         </li>
         <li>
-            <img src="static/img/payroll-mobility.png" alt="a money icon">
+            <img src="img/payroll-mobility.png" alt="a money icon">
             <h3>Payroll Mobility Tax replacement funds</h3>
             <h4>$244 million</h4>
             <p>In 2011, the politically unpopular tax got slashed, with Gov. Cuomo promising the state will make up the shortfall to make the MTA whole. In last year’s budget, however, $65 million from this reimbursement was cut.</p>
         </li>
         <li>
-            <img src="static/img/mta-aid.png" alt="a piggy bank icon">
+            <img src="img/mta-aid.png" alt="a piggy bank icon">
             <h3>MTA Aid</h3>
             <h4>$305 million</h4>
             <p>This is a hodgepodge of new fees from 2009 that includes a 50-cent fee on city taxi trips, a $25 annual fee on motor vehicle registrations, auto rentals and licenses.</p>
@@ -274,13 +258,13 @@
     <h2>Subsidies in detail</h2>
     <ul>
         <li>
-            <img src="static/img/state-local.png" alt="an illustration of a government building">
+            <img src="img/state-local.png" alt="an illustration of a government building">
             <h3>State &amp; Local operating assistance</h3>
             <h4>$545 million</h4>
             <p>Under law, the state’s mass transportation program gives direct financial aid to the MTA, mainly through the Metropolitan Mass Transportation Operating Assistance fund. Local operating assistance is matching payments from the city and the suburban counties in the MTA region. The city and the suburban counties in the MTA region also pay for maintenance of commuter rail stations.</p>
         </li>
         <li>
-            <img src="static/img/other-funding.png" alt="an illustration of a bundle of cash">
+            <img src="img/other-funding.png" alt="an illustration of a bundle of cash">
             <h3>Other funding</h3>
             <h4>$674 million</h4>
             <p>The city reimburses the MTA for the cost of running routes within MTA Bus Company, created to take over bus services that were run by private companies. The city also gives the MTA money to cover the transit agency’s operating budget deficit. The Connecticut Department of Transportation also subsidizes Metro-North operations in the state.</p>
@@ -289,8 +273,8 @@
 </div>
 </section>
 <div>
-    <p class="caption">Source: MTA 2018 Preliminary budget - July Financial Plan 2018-2021; mid-year forecast 2017</p>
-    <p class="caption">Interactive by Kelli R. Parker</p>
+    <p class="caption">Source: </p>
+    <p class="caption">Interactive by Joe Murphy</p>
 </div>
 
         </div>
@@ -298,7 +282,6 @@
 </main>
 
   <div class="ad center">
-    <span>ADVERTISEMENT</span>
     <div id='div-gpt-ad-1423507761396-3'>
       <script>
         googletag.cmd.push(function() { googletag.display('div-gpt-ad-1423507761396-3'); });
