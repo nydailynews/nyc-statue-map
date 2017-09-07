@@ -102,7 +102,7 @@ q {
     quotes: '\201C' '\201D';
 }
 
-img {
+#statues img {
     max-height: 170px;
 }
 
