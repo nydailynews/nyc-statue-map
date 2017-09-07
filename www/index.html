@@ -369,14 +369,14 @@
 <script>
 var center_point = [40.74274, -73.988974];
 var m = {
-    map: L.map('statue-map', { minZoom: 9, zoomControl:true, scrollWheelZoom:false }).setView(center_point, 13),
+    map: L.map('statue-map', { minZoom: 9, zoomControl:true, scrollWheelZoom:false }).setView(center_point, 12),
     markers: [],
     tile: 'https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png',
     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="http://cartodb.com/attributions">CartoDB</a>',
-    add_marker: function (lat, lon, id, title)
+    add_marker: function (lat, lon, id, title, desc)
     {
         var marker = L.marker(new L.LatLng(lat, lon)).addTo(this.marker_group);
-        var content = "<h3><a href='#" + id + "'>" + title + "</a></h3>";
+        var content = "<h3><a href='#" + id + "'>" + title + "</a></h3><p>" + desc + "</p>";
         marker.bindPopup(content);
         this.markers.push(marker);
     },
@@ -396,9 +396,8 @@ var m = {
             m.marker_group = L.layerGroup().addTo(m.map);
             var len = data.length;
             for ( var i = 0; i < len; i ++ ) {
-                //console.log(data[i]);
                 var d = data[i];
-                if ( d['lat'] !== '' ) m.add_marker(d['lat'], d['long'], m.slugify(d['fileorder']), d['name']);
+                if ( d['lat'] !== '' ) m.add_marker(d['lat'], d['long'], m.slugify(d['fileorder']), d['name'], d['descrip']);
             }
         });
 
