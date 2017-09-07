@@ -1,7 +1,7 @@
 [
   {
     "name": "Joseph Pulitzer",
-    "fileorder": "",
+    "fileorder": "joseph-pulitzer",
     "number": "1,293",
     "parkprop": "Y",
     "borough": "Manhattan",
@@ -16,7 +16,7 @@
   },
   {
     "name": "Bernard M. Baruch Bench Plaque",
-    "fileorder": "Baruch, Bernard Mannes",
+    "fileorder": "Bernard Baruch",
     "number": 77,
     "parkprop": "Y",
     "borough": "Manhattan",
@@ -31,7 +31,7 @@
   },
   {
     "name": "Ulysses Simpson Grant",
-    "fileorder": "Grant, Ulysses Simpson",
+    "fileorder": "Ulysses Grant",
     "number": 621,
     "parkprop": "Y",
     "borough": "Brooklyn",
@@ -46,7 +46,7 @@
   },
   {
     "name": "Brigadier General Winfield Scott Hancock",
-    "fileorder": "Hancock, Winfield Scott",
+    "fileorder": "Winfield Hancock",
     "number": 667,
     "parkprop": "Y",
     "borough": "Manhattan",
@@ -61,7 +61,7 @@
   },
   {
     "name": "General Horace Porter Memorial",
-    "fileorder": "Porter, Horace",
+    "fileorder": "Horace Porter",
     "number": "1,211",
     "parkprop": "Y",
     "borough": "Manhattan",
@@ -76,7 +76,7 @@
   },
   {
     "name": "William Tecumseh Sherman",
-    "fileorder": "Sherman, William Tecumseh",
+    "fileorder": "William Sherman",
     "number": "1,442",
     "parkprop": "Y",
     "borough": "Manhattan",
@@ -91,7 +91,7 @@
   },
   {
     "name": "Tulip Tree",
-    "fileorder": "",
+    "fileorder": "Tulip Tree",
     "number": "1,578",
     "parkprop": "Y",
     "borough": "Manhattan",
@@ -106,7 +106,7 @@
   },
   {
     "name": "Peter Stuyvesant",
-    "fileorder": "",
+    "fileorder": "Peter Stuyvesant",
     "number": "1,516",
     "parkprop": "Y",
     "borough": "Manhattan",
@@ -121,7 +121,7 @@
   },
   {
     "name": "Christopher Columbus",
-    "fileorder": "Columbus, Christopher",
+    "fileorder": "Christopher Columbus",
     "number": 296,
     "parkprop": "Y",
     "borough": "Queens",
@@ -136,7 +136,7 @@
   },
   {
     "name": "Christopher Columbus",
-    "fileorder": "Columbus, Christopher",
+    "fileorder": "Christopher Columbus",
     "number": 300,
     "parkprop": "Y",
     "borough": "the Bronx",
@@ -151,7 +151,7 @@
   },
   {
     "name": "Christopher Columbus Monument Fountain",
-    "fileorder": "Columbus, Christopher",
+    "fileorder": "Christopher Columbus",
     "number": 293,
     "parkprop": "Y",
     "borough": "Manhattan",
@@ -166,7 +166,7 @@
   },
   {
     "name": "Christopher Columbus Tablet",
-    "fileorder": "columbus, christopher",
+    "fileorder": "christopher Columbus",
     "number": 301,
     "parkprop": "Y",
     "borough": "Brooklyn",
@@ -181,7 +181,7 @@
   },
   {
     "name": "Columbus Triangle Tablet",
-    "fileorder": "columbus triangle tablet",
+    "fileorder": "Christopher columbus",
     "number": 295,
     "parkprop": "Y",
     "borough": "Queens",
@@ -196,7 +196,7 @@
   },
   {
     "name": "Dr. James Marion Sims",
-    "fileorder": "Sims, James Marion",
+    "fileorder": "James Sims",
     "number": "1,448",
     "parkprop": "Y",
     "borough": "Manhattan",
@@ -211,7 +211,7 @@
   },
   {
     "name": "Daniel Webster",
-    "fileorder": "Webster, Daniel",
+    "fileorder": "Daniel Webster",
     "number": "1,692",
     "parkprop": "Y",
     "borough": "Manhattan",
@@ -226,7 +226,7 @@
   },
   {
     "name": "Samuel J. Tilden",
-    "fileorder": "",
+    "fileorder": "Samuel Tilden",
     "number": "1,548",
     "parkprop": "Y",
     "borough": "Manhattan",
@@ -241,7 +241,7 @@
   },
   {
     "name": "Samuel Sullivan Cox",
-    "fileorder": "Cox, Samuel Sullivan",
+    "fileorder": "Samuel Cox",
     "number": 341,
     "parkprop": "Y",
     "borough": "Manhattan",
@@ -256,7 +256,7 @@
   },
   {
     "name": "Robert Moses Memorial",
-    "fileorder": "",
+    "fileorder": "Robert Moses",
     "number": "1,067",
     "parkprop": "Y",
     "borough": "Manhattan",
@@ -271,7 +271,7 @@
   },
   {
     "name": "Robert Moses Tree Marker",
-    "fileorder": "Moses, Robert",
+    "fileorder": "Robert Moses",
     "number": "1,065",
     "parkprop": "Y",
     "borough": "Manhattan",
@@ -286,7 +286,7 @@
   },
   {
     "name": "Fiorello H. La Guardia",
-    "fileorder": "La Guardia, Fiorello H..",
+    "fileorder": "Fiorello La Guardia",
     "number": 885,
     "parkprop": "Y",
     "borough": "Manhattan",
@@ -301,7 +301,7 @@
   },
   {
     "name": "Fiorello H. La Guardia",
-    "fileorder": "La Guardia, Fiorello Henry",
+    "fileorder": "Fiorello La Guardia",
     "number": "1,778",
     "parkprop": "N",
     "borough": "Manhattan",
@@ -316,7 +316,7 @@
   },
   {
     "name": "Henry Ward Beecher Monument",
-    "fileorder": "Beecher, Henry Ward",
+    "fileorder": "Henry Beecher",
     "number": 102,
     "parkprop": "Y",
     "borough": "Brooklyn",
@@ -331,7 +331,7 @@
   },
   {
     "name": "George Washington",
-    "fileorder": "Washington, George",
+    "fileorder": "George Washington",
     "number": "1,676",
     "parkprop": "Y",
     "borough": "Manhattan",
@@ -346,7 +346,7 @@
   },
   {
     "name": "General George Washington Tablet",
-    "fileorder": "",
+    "fileorder": "George Washington",
     "number": "1,665",
     "parkprop": "Y",
     "borough": "Queens",
@@ -361,7 +361,7 @@
   },
   {
     "name": "George Washington Accompanied by Fame and Valor",
-    "fileorder": "Washington, George",
+    "fileorder": "George Washington",
     "number": "1,668",
     "parkprop": "Y",
     "borough": "Manhattan",
@@ -376,7 +376,7 @@
   },
   {
     "name": "George Washington Accompanied by Wisdom and Justice",
-    "fileorder": "Washington, George",
+    "fileorder": "George Washington",
     "number": "1,682",
     "parkprop": "Y",
     "borough": "Manhattan",
@@ -391,7 +391,7 @@
   },
   {
     "name": "George Washington as Master Mason",
-    "fileorder": "Washington, George",
+    "fileorder": "George Washington",
     "number": "1,666",
     "parkprop": "Y",
     "borough": "Queens",
@@ -406,7 +406,7 @@
   },
   {
     "name": "George Washington at Valley Forge",
-    "fileorder": "Washington, George",
+    "fileorder": "George Washington",
     "number": "1,669",
     "parkprop": "Y",
     "borough": "Brooklyn",
@@ -421,7 +421,7 @@
   },
   {
     "name": "George Washington Bicentennial",
-    "fileorder": "",
+    "fileorder": "George Washington",
     "number": "1,670",
     "parkprop": "Y",
     "borough": "Manhattan",
@@ -436,7 +436,7 @@
   },
   {
     "name": "George Washington Bicentennial Tree Marker",
-    "fileorder": "",
+    "fileorder": "George Washington",
     "number": "1,681",
     "parkprop": "Y",
     "borough": "Manhattan",
@@ -451,7 +451,7 @@
   },
   {
     "name": "George Washington Tree Marker",
-    "fileorder": "",
+    "fileorder": "George Washington",
     "number": "1,680",
     "parkprop": "Y",
     "borough": "Staten Island",
@@ -466,7 +466,7 @@
   },
   {
     "name": "Lafayette and Washington",
-    "fileorder": "",
+    "fileorder": "George Washington",
     "number": "1,650",
     "parkprop": "Y",
     "borough": "Manhattan",
@@ -481,7 +481,7 @@
   },
   {
     "name": "Washington Square Arch",
-    "fileorder": "Washington Square Arch",
+    "fileorder": "George Washington",
     "number": "1,657",
     "parkprop": "Y",
     "borough": "Manhattan",
@@ -495,8 +495,8 @@
     "descrip": "Triumphal arch, with two eagles, spandrel figures, two pier sculptures"
   },
   {
-    "name": "Washington, George",
-    "fileorder": "",
+    "name": "George Washington portrait",
+    "fileorder": "George Washington",
     "number": "1,667",
     "parkprop": "Y",
     "borough": "Manhattan",
@@ -511,7 +511,7 @@
   },
   {
     "name": "General Daniel Butterfield",
-    "fileorder": "Butterfield, Daniel",
+    "fileorder": "Daniel Butterfield",
     "number": 202,
     "parkprop": "Y",
     "borough": "Manhattan",
@@ -526,7 +526,7 @@
   },
   {
     "name": "Henry Clay",
-    "fileorder": "",
+    "fileorder": "Henry Clay",
     "number": 268,
     "parkprop": "N",
     "borough": "Manhattan",
@@ -541,7 +541,7 @@
   },
   {
     "name": "Roscoe Conkling",
-    "fileorder": "Conkling, Roscoe",
+    "fileorder": "Roscoe Conkling",
     "number": 319,
     "parkprop": "Y",
     "borough": "Manhattan",
@@ -556,7 +556,7 @@
   },
   {
     "name": "General William Jenkins Worth Monument",
-    "fileorder": "Worth, William Jenkins",
+    "fileorder": "William Worth",
     "number": "1,734",
     "parkprop": "Y",
     "borough": "Manhattan",
