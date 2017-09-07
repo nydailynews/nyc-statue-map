@@ -26,13 +26,13 @@
     <meta name="news_keywords" content="~key" />
 
     <!-- LINK -->
-    <link rel="canonical" href="~canon">
-    <meta property="og:url" content="~canon" />
-    <meta name="twitter:url" content="~canon" />
+    <link rel="canonical" href="http://interactive.nydailynews.com/map/nyc-statues/">
+    <meta property="og:url" content="http://interactive.nydailynews.com/map/nyc-statues/" />
+    <meta name="twitter:url" content="http://interactive.nydailynews.com/map/nyc-statues/" />
 
     <!-- THUMBNAIL IMAGE-->
-    <meta property="og:image" content="~canon/img/~share" />
-    <meta name="twitter:image" content="~canon/img/~share" />
+    <meta property="og:image" content="http://interactive.nydailynews.com/map/nyc-statues//img/~share" />
+    <meta name="twitter:image" content="http://interactive.nydailynews.com/map/nyc-statues//img/~share" />
     <meta name="twitter:image:alt" content="" />
     <meta property="og:image:width" content="1024" />
     <meta property="og:image:height" content="512" />
@@ -43,12 +43,12 @@
             "@context": "http://schema.org",
             "@type": "NewsArticle",
             "headline": "MAP: NYC's controversial statues and memorials",
-            "url": "~canon",
-            "thumbnailUrl": "~canon/img/",
+            "url": "http://interactive.nydailynews.com/map/nyc-statues/",
+            "thumbnailUrl": "http://interactive.nydailynews.com/map/nyc-statues//img/",
             "dateCreated": "2017-09-07T06:00:00Z",
             "articleSection": "Interactive",
             "creator": ["Interactive Project","Joe Murphy","Greg Smith"],
-            "keywords": ["interactive map","interactive project","interactive",]
+            "keywords": ["interactive map","interactive project","interactive","confederate monuments"]
         }
     </script>
 
@@ -87,7 +87,7 @@
         };
         var nydnDO = [ { 
             'title':'xxxMAP: NYC\'s controversial statues and memorialsxxx', 
-            'link':'~canon', 
+            'link':'http://interactive.nydailynews.com/map/nyc-statues/', 
             'p_type':'interactive', 
             'section':'interactive' 
         }];
@@ -120,15 +120,14 @@
 <main>
     <article>
         <div>
-            
 
 <div class="intro">
     <h1>MAP: New York City’s controversial statues and monuments</h1>
     <div>
         <ul class="ra-share" id="ra-share-top" style="text-align: center;">
-            <li class="rt-share-f"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=~canon">facebook</a> </li>
-            <li class="ra-share-t"> <a target="_blank" href="https://twitter.com/intent/tweet?text=&url=~canon&via=NYDNi&related=nydailynews,joemurph">Tweet</a></li>
-            <li class="ra-share-e"> <a href="mailto:?subject=&body=~canon">email</a> </li>
+            <li class="rt-share-f"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://interactive.nydailynews.com/map/nyc-statues/">facebook</a> </li>
+            <li class="ra-share-t"> <a target="_blank" href="https://twitter.com/intent/tweet?text=NYC's controversial statues:&url=http://interactive.nydailynews.com/map/nyc-statues/&via=NYDNi&related=nydailynews,joemurph">Tweet</a></li>
+            <li class="ra-share-e"> <a href="mailto:?subject=&body=http://interactive.nydailynews.com/map/nyc-statues/">email</a> </li>
         </ul>
     </div>
 
@@ -308,7 +307,6 @@
 </section>
 
   <div class="ad center">
-    <span>ADVERTISEMENT</span>
     <div id='div-gpt-ad-1423507761396-2'>
       <script>
         googletag.cmd.push(function() { googletag.display('div-gpt-ad-1423507761396-2'); });
@@ -317,7 +315,6 @@
   </div>
 
 <div>
-    <p class="caption">Source: </p>
     <p class="caption">Interactive by Joe Murphy</p>
 </div>
 
@@ -337,10 +334,11 @@
 <script src="http://interactive.nydailynews.com/js/jquery.min.js"></script>
 <script src="http://interactive.nydailynews.com/js/leaflet/1.2.0/leaflet.js"></script>
 <script>
+var center_point = [40.74274, -73.988974];
 var m = {
-    map: L.map('statue-map', { minZoom: 9, zoomControl:true, scrollWheelZoom:false }).setView([40.723987,-73.9888007], 11),
+    map: L.map('statue-map', { minZoom: 9, zoomControl:true, scrollWheelZoom:false }).setView(center_point, 12),
     markers: [],
-    tile: 'http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png',
+    tile: 'https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png',
     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="http://cartodb.com/attributions">CartoDB</a>',
     add_marker: function (lat, lon, id, title, content)
     {
@@ -370,7 +368,7 @@ var m = {
             }
         });
 
-        this.map.fitBounds(this.marker_group);
+        //this.map.fitBounds(this.marker_group);
         //m.map.addLayer(kmlLayer);
     }
 }
