@@ -140,12 +140,12 @@ div.ad > span {
 
 /*  SECTIONS  */
 
-section#monies {
+section#statues {
     width: 100%;
     height: auto;
 }
 
-section#monies ul {
+section#statues ul {
     width: 100%;
     height: auto;
     margin: 0;
@@ -161,13 +161,13 @@ section#monies ul {
     justify-content: space-around;
 }
 
-section#monies ul li {
+section#statues ul li {
     width: 300px;
     margin: 10px;
     text-align: center;
 }
 
-section#monies ul li div p {
+section#statues ul li div p {
     text-align: left;
 }
 
