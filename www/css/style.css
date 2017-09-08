@@ -178,6 +178,49 @@ section#statues ul li div p {
     margin-top: 0;
 }
 
+/*  READ MORE HANDLER  */
+.read-more.collapsed {
+    max-height: 120px;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+
+.read-more {
+    position: relative;
+    cursor: pointer;
+}
+
+.read-more:before {
+    display: none;
+}
+
+.read-more.collapsed:after {
+    content: "Read More \25BE";
+    width: 270px;
+    padding: 5px 10px 5px 0;
+    bottom: -1px;
+    z-index: 1;
+    text-align: right;
+    transition: bottom .4s;
+    background: linear-gradient(to right,transparent 0,#8fb0c6 80%,#8fb0c6 100%);
+}
+
+.read-more:after {
+    content: "Read Less \25B4";
+    display: block;
+    width: 270px;
+    position: absolute;
+    right: 2px;
+    text-transform: uppercase;
+    color: white;
+    cursor: pointer;
+    font: bold 15px "Open Sans Condensed", sans-serif;
+    text-align: right;
+    padding: 5px 10px 5px 0;
+    transition: bottom .4s;
+    background: linear-gradient(to right,transparent 0,#8fb0c6 80%,#8fb0c6 100%);
+}
+
 /* HANDHELD-SPECIFIC */
 @media only screen and ( min-width: 220px ) and ( max-width:727px ) {
 .intro p {

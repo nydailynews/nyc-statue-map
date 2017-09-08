@@ -31,11 +31,11 @@
     <meta name="twitter:url" content="http://interactive.nydailynews.com/map/nyc-statues/" />
 
     <!-- THUMBNAIL IMAGE-->
-    <meta property="og:image" content="http://interactive.nydailynews.com/map/nyc-statues/img/statue-splitter.jpg" />
-    <meta name="twitter:image" content="http://interactive.nydailynews.com/map/nyc-statues/img/statue-splitter.jpg" />
-    <meta name="twitter:image:alt" content="" />
-    <meta property="og:image:width" content="727" />
-    <meta property="og:image:height" content="445" />
+    <meta property="og:image" content="http://interactive.nydailynews.com/map/nyc-statues/img/statue-share.jpg" />
+    <meta name="twitter:image" content="http://interactive.nydailynews.com/map/nyc-statues/img/statue-share.jpg" />
+    <meta name="twitter:image:alt" content="A composite image of a map of New York City and several statues in NYC" />
+    <meta property="og:image:width" content="1024" />
+    <meta property="og:image:height" content="512" />
 
     <!-- PARSELY -->
     <script type="application/ld+json">
@@ -44,7 +44,7 @@
             "@type": "NewsArticle",
             "headline": "MAP: NYC's controversial statues and memorials",
             "url": "http://interactive.nydailynews.com/map/nyc-statues/",
-            "thumbnailUrl": "http://interactive.nydailynews.com/map/nyc-statues/img/statue-splitter.jpg",
+            "thumbnailUrl": "http://interactive.nydailynews.com/map/nyc-statues/img/statue-share.jpg",
             "dateCreated": "2017-09-08T06:00:00Z",
             "articleSection": "Interactive",
             "creator": ["Interactive Project","Joe Murphy","Steve Smirti","Greg B. Smith"],
@@ -225,8 +225,8 @@
             <p>On Feb. 17, 1864 Samuel Cox gave a speech to Congress accusing President Abraham Lincoln (then running for reelection) of a secret plan to promote miscegenation. He waved about a pamphlet entitled “Miscegenation: A theory of the Blending of the American White Man and Negro” and produced letters from abolitionists in support of it, which Cox warned proved the pamphlet’s “disgusting theories” “which seem so novel to us (but) have been a part of the gospel of abolition for years.” The pamphlet was a hoax; Lincoln was, of course, re-elected.</p>
             <p><a href="#map">Back to map</a></p>
         </li>
-        <li id="fiorello-laguardia">
-            <img src="img/fiorello-la-guardia.jpg" alt="A photo of a statue of Fiorello La Guardia in Manhattan">
+        <li id="fiorello-la-guardia">
+            <img src="img/fiorello-laguardia.jpg" alt="A photo of a statue of Fiorello La Guardia in Manhattan">
             <h3>Fiorello La Guardia</h3>
             <h4>Congressman 1923-1933, Republican Mayor of New York City 1934-1945</h4>
             <p>In 1943 Metropolitan Life – which had a stated policy of not renting to blacks – announced plans to build Stuyvesant Town in Manhattan. La Guardia approved the development, knowing of this discriminatory policy. He was roundly criticized by the black community and many of his usual supporters for declining to intervene. The day he signed the contract he said he hoped the courts might intervene to reverse the policy.</p>
@@ -278,7 +278,9 @@
             <img src="img/william-sherman.jpg" alt="A photo of an elegant statue of General William Tecumseh Sherman in Grand Army Plaza in Manhattan">
             <h3>General William Tecumseh Sherman</h3>
             <h4>Famous Civil War general known for his 1864 capture of Atlanta and subsequent March to the Sea, a turning point for the Union</h4>
+            <div id="read-more-0" class="read-more collapsed section-0" onclick="clicker(0);">
             <p>During the taking of Atlanta in September 1864, General William Sherman ordered the burning of all government and military buildings. Many civilian residences were burned down in the process. In his march to Savannah he caused, by his own estimate, $100 million in property damage. During the war he refused to employ black soldiers in his army. In 1860 he wrote to his wife, “All the congresses on earth can’t make the negro anything else than what he is; he must be subject to the white man.” And he wrote, “Two such races cannot live in harmony save as master and slave.” But in 1865 he issued <a href="https://en.wikipedia.org/wiki/Special_Field_Orders_No._15">Special Field Orders No. 15</a>, seizing land from white owners in South Carolina, Georgia and Florida to settle 40,000 freed slaves and black refugees. This was the basis of the phrase “<a href="http://www.pbs.org/wnet/african-americans-many-rivers-to-cross/history/the-truth-behind-40-acres-and-a-mule/">40 acres and a mule</a>” and it was revoked a year later by President Andrew Johnson, whose sympathies lay with the South. After the war he was assigned to the frontier and oversaw major Indian wars. He advocated eradicating the buffalo as a means to forcing the Indians to weaken the Indians. He died in NYC of pneumonia on Valentine’s Day 1891.</p>
+            </div>
             <p><a href="#map">Back to map</a></p>
         </li>
         <li id="james-sims">
@@ -288,7 +290,7 @@
             <p>Dr. James Sims' statue’s inscription states, “His brilliant achievement carried the fame of American surgery throughout the entire world.” Sims experimented on 12 female slaves (1845-1849) in Montgomery, Alabama who were suffering from a severe complication that obstructed childbirth. At first the surgery failed but in later efforts he was able to remedy the problem for four of the women. He later moved to New York where he performed the now perfected operation on white women.</p>
             <p><a href="#map">Back to map</a></p>
         </li>
-        <li id="joseph-pulitzer">
+        <li id="josephpulitzer">
             <img src="img/joseph-pulitzer.jpg" alt="A photo of a plaque commemmorating Joseph Pulitzer">
             <h3>Joseph Pulitzer</h3>
             <h4>Famous 19th Century newspaper publisher</h4>
@@ -426,5 +428,19 @@ m.init();
         </div>
     </div>
 </div>
+    <script>
+    var clicker = function (id) {if($("#read-more-" + id).hasClass("collapsed")){expand(id);}else{collapse(id);}}
+
+    var expand = function (id){$("#read-more-" + id).stop().addClass("on").animate({"max-height":"800px"},200,function(){$("#read-more-" + id).removeClass("collapsed");});}
+
+    var collapse = function (id){$("#read-more-" + id).stop().removeClass("on").animate({"max-height":"125px"},200,function(){$("#read-more-" + id).addClass("collapsed");});}
+
+    var expand_all = function() {
+        $.each($(".collapsed"), function (index, value) {
+            expand(index);
+        });
+        $('.expand-all').addClass('hide');       
+    }
+    </script>
 </body>
 </html>
