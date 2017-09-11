@@ -258,3 +258,50 @@ section#profiles ul li {
     flex: 1 0 auto;
 }
 }
+
+
+#ra-share-top li {
+    display: inline-block;
+}
+.ra-share-e a, .rt-share-e a,
+.ra-share-f a, .rt-share-f a,
+.ra-share-t a, .rt-share-t a {
+    position: relative;
+    z-index: 1;
+}
+.ra-share-t, .rt-share-t {
+    background: #40BEF1;
+}
+.ra-share-e, .rt-share-e {
+    background: #989898;
+}
+.ra-share-f:after, .rt-share-f:after {
+    content: "\e741";
+}
+.ra-share-t:after, .rt-share-t:after {
+    content: "\e74b";
+}
+.ra-share-e:after, .rt-share-e:after {
+    content: "\e75a";
+}
+.ra-share a, .rt-share a {
+    display: block;
+    font-size: 0;
+    height: 100%;
+    cursor: pointer;
+}
+.ra-share li:after, .ra-share dd:after, .rt-share li:after, .rt-share dd:after {
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+}
+.ra-share-f:after, .rt-share-f:after, .ra-share-t:after, .rt-share-t:after, .ra-share-e:after, .rt-share-e:after, .ra-share-p:after, .rt-share-p:after, .ra-share-i:after, .rt-share-i:after {
+    font: 16px "themify";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    max-height: 100%;
+}
