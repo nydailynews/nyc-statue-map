@@ -260,14 +260,33 @@ section#profiles ul li {
 }
 
 
+a {
+    text-decoration: none;
+    color: #2569D3;
+}
+#ra-share-top {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.ra-share, .rt-share {
+    position: relative;
+}
 #ra-share-top li {
     display: inline-block;
+}
+.ra-share li, .ra-share dd, .rt-share li, .rt-share dd {
+    color: white;
+    margin-right: 20px;
 }
 .ra-share-e a, .rt-share-e a,
 .ra-share-f a, .rt-share-f a,
 .ra-share-t a, .rt-share-t a {
     position: relative;
     z-index: 1;
+    box-sizing: border-box;
+}
+.ra-share-f, .rt-share-f {
+    background: #2A6FBF;
 }
 .ra-share-t, .rt-share-t {
     background: #40BEF1;
@@ -289,6 +308,13 @@ section#profiles ul li {
     font-size: 0;
     height: 100%;
     cursor: pointer;
+}
+.ra-share-f, .rt-share-f, .ra-share-t, .rt-share-t, .ra-share-e, .rt-share-e, .ra-share-p, .rt-share-p, .ra-share-i, .rt-share-i {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
 }
 .ra-share li:after, .ra-share dd:after, .rt-share li:after, .rt-share dd:after {
     font-size: 16px;
