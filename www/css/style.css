@@ -76,7 +76,7 @@ main p {
     margin-top: 15px;
 }
 
-div.intro p#datestamp + p:first-letter {
+div.intro p#datestamp + p + p:first-letter {
     text-transform: uppercase;
     float: left;
     font-size: 53px;
